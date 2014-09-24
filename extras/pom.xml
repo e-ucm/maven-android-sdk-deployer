@@ -72,9 +72,6 @@
     <profiles>
         <profile>
             <id>all</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
             <modules>
                 <module>compatibility-v4</module>
                 <module>compatibility-v7-gridlayout</module>
@@ -92,6 +89,12 @@
                 <module>google-play-services-froyo</module>
                 <module>play-licensing</module>
                 <module>play-apk-expansion</module>
+            </modules>
+        </profile>
+        <profile>
+            <id>google-play-services</id>
+            <modules>
+                <module>google-play-services</module>
             </modules>
         </profile>
     </profiles>

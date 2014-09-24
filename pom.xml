@@ -164,9 +164,6 @@
     <profiles>
         <profile>
             <id>all</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
             <modules>
                 <module>platforms</module>
                 <module>add-ons</module>
@@ -174,6 +171,12 @@
 				<!-- Deprecated tools as the only module 'annotation' is now part of the android sdk jar -->
                 <!-- <module>tools</module> -->
                 <module>repositories</module>
+            </modules>
+        </profile>
+        <profile>
+            <id>google-play-services</id>
+            <modules>
+                <module>extras</module>
             </modules>
         </profile>
         <profile>
